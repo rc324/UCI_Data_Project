@@ -25,3 +25,10 @@ fBodyGyroMag<br>
 fBodyGyroJerkMag<br>
  
  The X,Y or Z are used to denote the axial signals in the X, Y an Z directions. The t prefix is for time domain signals and f is for frequency domain. 
+
+###Transforming the Raw data
+The Tidy data combines the raw training and test data.<br>
+The variables which measure only mean and std variation were selcted<br>
+Descriptive variables names were added for activity and feature variables<br>
+From the subsetted data, means were calculated for the features for unique combination of Subject and Activity<br>
+The calculated averages were put in a seperate data frame and that was written out into UCI_TidyData.txt
