@@ -1,5 +1,5 @@
 ###Getting and Cleaning Data Project Code Book.
-The UCI_TidyData.txt file contains 180 rows and 68 columns (variables) seperated by space.
+The UCI_TidyData.txt file contains the Tidy data set for UCI HAR experiment. The data set has 180 rows and 68 columns (variables) seperated by space. Each row corresponds to a unique subject and activity
 ####Variable descriptions
 * Column 1 is the Subject variable which is a numeric that has a range of 1 to 30 and represents the 30 subjects which were part of the experiement
 * Column 2 is activity which is a descirptive character variable which represents the activity performed by the subjects. There are 6 types of activities
